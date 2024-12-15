@@ -1,0 +1,1374 @@
+[
+  {
+    "ContainingType": "Project.WebApi.Controllers.AutoresController",
+    "Method": "ActualizarAutor",
+    "RelativePath": "api/Autores/ActualizarAutor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autor",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Autor.UpdateAutorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.AutoresController",
+    "Method": "CrearAutor",
+    "RelativePath": "api/Autores/CrearAutor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autor",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Autor.CreateAutorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.AutoresController",
+    "Method": "EliminarAutor",
+    "RelativePath": "api/Autores/EliminarAutor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.AutoresController",
+    "Method": "ObtenerAutores",
+    "RelativePath": "api/Autores/ObtenerAutores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.AutoresController",
+    "Method": "ObtenerAutorPorId",
+    "RelativePath": "api/Autores/ObtenerAutorPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.CarrerasController",
+    "Method": "ActualizarCarrera",
+    "RelativePath": "api/Carreras/ActualizarCarrera",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carrera",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Carrera.UpdateCarreraDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.CarrerasController",
+    "Method": "CrearCarrera",
+    "RelativePath": "api/Carreras/CrearCarrera",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carrera",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Carrera.CreateCarreraDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.CarrerasController",
+    "Method": "EliminarCarrera",
+    "RelativePath": "api/Carreras/EliminarCarrera",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.CarrerasController",
+    "Method": "ObtenerCarreraPorId",
+    "RelativePath": "api/Carreras/ObtenerCarreraPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.CarrerasController",
+    "Method": "ObtenerCarreras",
+    "RelativePath": "api/Carreras/ObtenerCarreras",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentosController",
+    "Method": "ActualizarDocumento",
+    "RelativePath": "api/Documentos/ActualizarDocumento",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documento",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Documento.UpdateDocumentoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentosController",
+    "Method": "CrearDocumento",
+    "RelativePath": "api/Documentos/CrearDocumento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documento",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Documento.CreateDocumentoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentosController",
+    "Method": "EliminarDocumento",
+    "RelativePath": "api/Documentos/EliminarDocumento",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentosController",
+    "Method": "ObtenerDocumentoPorId",
+    "RelativePath": "api/Documentos/ObtenerDocumentoPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentosController",
+    "Method": "ObtenerDocumentos",
+    "RelativePath": "api/Documentos/ObtenerDocumentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EditorialesController",
+    "Method": "ActualizarEditorial",
+    "RelativePath": "api/Editoriales/ActualizarEditorial",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editorial",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Editorial.UpdateEditorialDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EditorialesController",
+    "Method": "CrearEditorial",
+    "RelativePath": "api/Editoriales/CrearEditorial",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editorial",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Editorial.CreateEditorialDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EditorialesController",
+    "Method": "EliminarEditorial",
+    "RelativePath": "api/Editoriales/EliminarEditorial",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EditorialesController",
+    "Method": "ObtenerEditoriales",
+    "RelativePath": "api/Editoriales/ObtenerEditoriales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EditorialesController",
+    "Method": "ObtenerEditorialPorId",
+    "RelativePath": "api/Editoriales/ObtenerEditorialPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EjemplaresController",
+    "Method": "ActualizarEjemplar",
+    "RelativePath": "api/Ejemplares/ActualizarEjemplar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ejemplar",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Ejemplar.UpdateEjemplarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EjemplaresController",
+    "Method": "CrearEjemplar",
+    "RelativePath": "api/Ejemplares/CrearEjemplar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ejemplar",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Ejemplar.CreateEjemplarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EjemplaresController",
+    "Method": "EliminarEjemplar",
+    "RelativePath": "api/Ejemplares/EliminarEjemplar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EjemplaresController",
+    "Method": "ObtenerEjemplares",
+    "RelativePath": "api/Ejemplares/ObtenerEjemplares",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EjemplaresController",
+    "Method": "ObtenerEjemplarPorId",
+    "RelativePath": "api/Ejemplares/ObtenerEjemplarPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EjemplaresController",
+    "Method": "ObtenerInformacionCompletaDeEjemplares",
+    "RelativePath": "api/Ejemplares/ObtenerInformacionCompletaDeEjemplares",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EjemplaresController",
+    "Method": "ObtenerInformacionCompletaDeEjemplarPorId",
+    "RelativePath": "api/Ejemplares/ObtenerInformacionCompletaDeEjemplarPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EjemplaresController",
+    "Method": "ObtenerInformacionParaBusquedaPorEjemplares",
+    "RelativePath": "api/Ejemplares/ObtenerInformacionParaBusquedaPorEjemplares",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EjemplaresController",
+    "Method": "VerificarEjemplarEnPrestamoActivo",
+    "RelativePath": "api/Ejemplares/VerificarEjemplarEnPrestamoActivo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEjemplar",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.IdiomasController",
+    "Method": "ActualizarIdioma",
+    "RelativePath": "api/Idiomas/ActualizarIdioma",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idioma",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Idioma.UpdateIdiomaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.IdiomasController",
+    "Method": "CrearIdioma",
+    "RelativePath": "api/Idiomas/CrearIdioma",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idioma",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Idioma.CreateIdiomaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.IdiomasController",
+    "Method": "EliminarIdioma",
+    "RelativePath": "api/Idiomas/EliminarIdioma",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.IdiomasController",
+    "Method": "ObtenerIdiomaPorId",
+    "RelativePath": "api/Idiomas/ObtenerIdiomaPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.IdiomasController",
+    "Method": "ObtenerIdiomas",
+    "RelativePath": "api/Idiomas/ObtenerIdiomas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "ActualizarLibro",
+    "RelativePath": "api/Libros/ActualizarLibro",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "libro",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Libro.UpdateLibroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "AgregarAutoresAUnLibro",
+    "RelativePath": "api/Libros/AgregarAutoresAUnLibro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autores",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Libro.AddAutoresAUnLibro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "AgregarTemasAUnLibro",
+    "RelativePath": "api/Libros/AgregarTemasAUnLibro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "temas",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Libro.AddTemasAUnLibro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "CrearLibro",
+    "RelativePath": "api/Libros/CrearLibro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "libro",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Libro.CreateLibroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "EliminarLibro",
+    "RelativePath": "api/Libros/EliminarLibro",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "ObtenerAutoresDeUnLibroPorId",
+    "RelativePath": "api/Libros/ObtenerAutoresDeUnLibroPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "ObtenerAutoresNoRelacionadosPorLibro",
+    "RelativePath": "api/Libros/ObtenerAutoresNoRelacionadosPorLibro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "LeerInformacionCompletaDeTodosLosLibros",
+    "RelativePath": "api/Libros/ObtenerInformacionCompletaDeTodosLosLibros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "LeerInformacionCompletaDeTodosLosLibrosParaReporte",
+    "RelativePath": "api/Libros/ObtenerInformacionCompletaDeTodosLosLibrosParaReporte",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "LeerInformacionCompletaDeUnLibroPorId",
+    "RelativePath": "api/Libros/ObtenerInformacionCompletaDeUnLibroPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "ObtenerInformacionParaBusquedaDeLibros",
+    "RelativePath": "api/Libros/ObtenerInformacionParaBusquedaDeLibrosDetallado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "ObtenerInformacionParaBusquedaDeLibrosSimple",
+    "RelativePath": "api/Libros/ObtenerInformacionParaBusquedaDeLibrosSimple",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "ObtenerLibroPorId",
+    "RelativePath": "api/Libros/ObtenerLibroPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "ObtenerLibros",
+    "RelativePath": "api/Libros/ObtenerLibros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "ObtenerTemasDeUnLibroPorId",
+    "RelativePath": "api/Libros/ObtenerTemasDeUnLibroPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.LibrosController",
+    "Method": "ObtenerTemasNoRelacionadosPorLibro",
+    "RelativePath": "api/Libros/ObtenerTemasNoRelacionadosPorLibro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.MateriasController",
+    "Method": "ActualizarMateria",
+    "RelativePath": "api/Materias/ActualizarMateria",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "materia",
+        "Type": "Project.Application.DTOs.Infraestructure.Identity.Materia.UpdateMateriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.MateriasController",
+    "Method": "CrearMateria",
+    "RelativePath": "api/Materias/CrearMateria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "materia",
+        "Type": "Project.Application.DTOs.Infraestructure.Identity.Materia.CreateMateriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.MateriasController",
+    "Method": "EliminarMateria",
+    "RelativePath": "api/Materias/EliminarMateria",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.MateriasController",
+    "Method": "ObtenerMateriaPorId",
+    "RelativePath": "api/Materias/ObtenerMateriaPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.MateriasController",
+    "Method": "ObtenerMaterias",
+    "RelativePath": "api/Materias/ObtenerMaterias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.OrigenesController",
+    "Method": "ActualizarOrigen",
+    "RelativePath": "api/Origenes/ActualizarOrigen",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "origen",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Origen.UpdateOrigenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.OrigenesController",
+    "Method": "CrearOrigen",
+    "RelativePath": "api/Origenes/CrearOrigen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "origen",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Origen.CreateOrigenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.OrigenesController",
+    "Method": "EliminarOrigen",
+    "RelativePath": "api/Origenes/EliminarOrigen",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.OrigenesController",
+    "Method": "ObtenerOrigenes",
+    "RelativePath": "api/Origenes/ObtenerOrigenes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.OrigenesController",
+    "Method": "ObtenerOrigenPorId",
+    "RelativePath": "api/Origenes/ObtenerOrigenPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PersonasController",
+    "Method": "ActualizarPersona",
+    "RelativePath": "api/Personas/ActualizarPersona",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "persona",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Persona.UpdatePersonaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PersonasController",
+    "Method": "CrearPersona",
+    "RelativePath": "api/Personas/CrearPersona",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "persona",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Persona.CreatePersonaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PersonasController",
+    "Method": "EliminarPersona",
+    "RelativePath": "api/Personas/EliminarPersona",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PersonasController",
+    "Method": "ObtenerPersonaPorId",
+    "RelativePath": "api/Personas/ObtenerPersonaPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PersonasController",
+    "Method": "ObtenerPersonas",
+    "RelativePath": "api/Personas/ObtenerPersonas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PrestamosController",
+    "Method": "ActualizarPrestamo",
+    "RelativePath": "api/Prestamos/ActualizarPrestamo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prestamo",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Prestamo.UpdatePrestamoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PrestamosController",
+    "Method": "AgregarEjemplaresAlPrestamo",
+    "RelativePath": "api/Prestamos/AgregarEjemplaresAlPrestamo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ejemplares",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Prestamo.AddEjemplaresToPrestamoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PrestamosController",
+    "Method": "CrearPrestamo",
+    "RelativePath": "api/Prestamos/CrearPrestamo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prestamo",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Prestamo.CreatePrestamoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PrestamosController",
+    "Method": "EliminarPrestamo",
+    "RelativePath": "api/Prestamos/EliminarPrestamo",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PrestamosController",
+    "Method": "MarcarPrestamoComoDevuelto",
+    "RelativePath": "api/Prestamos/MarcarPrestamoComoDevuelto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPrestamo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PrestamosController",
+    "Method": "ObtenerDetallePrestamo",
+    "RelativePath": "api/Prestamos/ObtenerDetallePrestamo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPrestamo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PrestamosController",
+    "Method": "ObtenerEjemplaresDeUnPrestamo",
+    "RelativePath": "api/Prestamos/ObtenerEjemplaresDeUnPrestamo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPrestamo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PrestamosController",
+    "Method": "ObtenerEjemplaresNoAsociadosAUnPrestamo",
+    "RelativePath": "api/Prestamos/ObtenerEjemplaresNoAsociadosAUnPrestamo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PrestamosController",
+    "Method": "ObtenerPrestamoPorId",
+    "RelativePath": "api/Prestamos/ObtenerPrestamoPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PrestamosController",
+    "Method": "ObtenerPrestamos",
+    "RelativePath": "api/Prestamos/ObtenerPrestamos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PrestamosController",
+    "Method": "ObtenerPrestamosActivos",
+    "RelativePath": "api/Prestamos/ObtenerPrestamosActivos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PrestamosController",
+    "Method": "RegistrarDevolucion",
+    "RelativePath": "api/Prestamos/RegistrarDevolucion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPrestamoDetalle",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.PrestamosController",
+    "Method": "VerificarPrestamosActivos",
+    "RelativePath": "api/Prestamos/VerificarPrestamosActivos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPersona",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TemasController",
+    "Method": "ActualizarTema",
+    "RelativePath": "api/Temas/ActualizarTema",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tema",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Tema.UpdateTemaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TemasController",
+    "Method": "CrearTema",
+    "RelativePath": "api/Temas/CrearTema",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tema",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Tema.CreateTemaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TemasController",
+    "Method": "EliminarTema",
+    "RelativePath": "api/Temas/EliminarTema",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TemasController",
+    "Method": "ObtenerTemaPorId",
+    "RelativePath": "api/Temas/ObtenerTemaPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TemasController",
+    "Method": "ObtenerTemas",
+    "RelativePath": "api/Temas/ObtenerTemas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TiposLibrosController",
+    "Method": "ActualizarLibro",
+    "RelativePath": "api/TiposLibros/ActualizarTipoLibro",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoLibro",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.TipoLibro.UpdateTipoLibroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TiposLibrosController",
+    "Method": "CrearLibro",
+    "RelativePath": "api/TiposLibros/CrearTipoLibro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoLibro",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.TipoLibro.CreateTipoLibroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TiposLibrosController",
+    "Method": "EliminarLibro",
+    "RelativePath": "api/TiposLibros/EliminarTipoLibro",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TiposLibrosController",
+    "Method": "ObtenerTipoLibroPorId",
+    "RelativePath": "api/TiposLibros/ObtenerTipoLibroPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TiposLibrosController",
+    "Method": "ObtenerTiposLibros",
+    "RelativePath": "api/TiposLibros/ObtenerTiposLibros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.UsuariosController",
+    "Method": "ActualizarUsuario",
+    "RelativePath": "api/Usuarios/ActualizarUsuario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Usuario.UpdateUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.UsuariosController",
+    "Method": "CrearUsuario",
+    "RelativePath": "api/Usuarios/CrearUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Usuario.CreateUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.UsuariosController",
+    "Method": "EliminarUsuario",
+    "RelativePath": "api/Usuarios/EliminarUsuario",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.UsuariosController",
+    "Method": "LogIn",
+    "RelativePath": "api/Usuarios/LogIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project.Application.DTOs.Infraestructure.Identity.Authentication.AuthenticationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.UsuariosController",
+    "Method": "ObtenerUsuarioPorId",
+    "RelativePath": "api/Usuarios/ObtenerUsuarioPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.UsuariosController",
+    "Method": "ObtenerUsuarios",
+    "RelativePath": "api/Usuarios/ObtenerUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
